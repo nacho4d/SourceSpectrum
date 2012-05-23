@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F815BAA156B602D00538900 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F815BA9156B602D00538900 /* Cocoa.framework */; };
+		4F815BB4156B602D00538900 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BB2156B602D00538900 /* InfoPlist.strings */; };
+		4F815BB6156B602D00538900 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F815BB5156B602D00538900 /* main.m */; };
+		4F815BBA156B602E00538900 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BB8156B602E00538900 /* Credits.rtf */; };
+		4F815BBD156B602E00538900 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F815BBC156B602E00538900 /* AppDelegate.m */; };
+		4F815BC0156B602E00538900 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BBE156B602E00538900 /* MainMenu.xib */; };
+		4F815BC7156B60EA00538900 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F815BC6156B60EA00538900 /* WebKit.framework */; };
+		4F815BFB156B6C9300538900 /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BC9156B6C9300538900 /* template.html */; };
+		4F815BFC156B6C9300538900 /* LGPL-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BCA156B6C9300538900 /* LGPL-LICENSE */; };
+		4F815BFD156B6C9300538900 /* MIT-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BCB156B6C9300538900 /* MIT-LICENSE */; };
+		4F815C1A156B6C9300538900 /* shCore.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BEA156B6C9300538900 /* shCore.css */; };
+		4F815C1B156B6C9300538900 /* shCoreDefault.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BEB156B6C9300538900 /* shCoreDefault.css */; };
+		4F815C1C156B6C9300538900 /* shCoreDjango.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BEC156B6C9300538900 /* shCoreDjango.css */; };
+		4F815C1D156B6C9300538900 /* shCoreEclipse.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BED156B6C9300538900 /* shCoreEclipse.css */; };
+		4F815C1E156B6C9300538900 /* shCoreEmacs.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BEE156B6C9300538900 /* shCoreEmacs.css */; };
+		4F815C1F156B6C9300538900 /* shCoreFadeToGrey.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BEF156B6C9300538900 /* shCoreFadeToGrey.css */; };
+		4F815C20156B6C9300538900 /* shCoreMDUltra.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BF0156B6C9300538900 /* shCoreMDUltra.css */; };
+		4F815C21156B6C9300538900 /* shCoreMidnight.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BF1156B6C9300538900 /* shCoreMidnight.css */; };
+		4F815C22156B6C9300538900 /* shCoreRDark.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BF2156B6C9300538900 /* shCoreRDark.css */; };
+		4F815C23156B6C9300538900 /* shThemeDefault.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BF3156B6C9300538900 /* shThemeDefault.css */; };
+		4F815C24156B6C9300538900 /* shThemeDjango.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BF4156B6C9300538900 /* shThemeDjango.css */; };
+		4F815C25156B6C9300538900 /* shThemeEclipse.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BF5156B6C9300538900 /* shThemeEclipse.css */; };
+		4F815C26156B6C9300538900 /* shThemeEmacs.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BF6156B6C9300538900 /* shThemeEmacs.css */; };
+		4F815C27156B6C9300538900 /* shThemeFadeToGrey.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BF7156B6C9300538900 /* shThemeFadeToGrey.css */; };
+		4F815C28156B6C9300538900 /* shThemeMDUltra.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BF8156B6C9300538900 /* shThemeMDUltra.css */; };
+		4F815C29156B6C9300538900 /* shThemeMidnight.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BF9156B6C9300538900 /* shThemeMidnight.css */; };
+		4F815C2A156B6C9300538900 /* shThemeRDark.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BFA156B6C9300538900 /* shThemeRDark.css */; };
+		4F815C2B156B750900538900 /* shAutoloader.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BCD156B6C9300538900 /* shAutoloader.js */; };
+		4F815C2C156B750900538900 /* shBrushAppleScript.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BCE156B6C9300538900 /* shBrushAppleScript.js */; };
+		4F815C2D156B750900538900 /* shBrushAS3.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BCF156B6C9300538900 /* shBrushAS3.js */; };
+		4F815C2E156B750900538900 /* shBrushBash.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BD0156B6C9300538900 /* shBrushBash.js */; };
+		4F815C2F156B750900538900 /* shBrushColdFusion.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BD1156B6C9300538900 /* shBrushColdFusion.js */; };
+		4F815C30156B750900538900 /* shBrushCpp.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BD2156B6C9300538900 /* shBrushCpp.js */; };
+		4F815C31156B750900538900 /* shBrushCSharp.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BD3156B6C9300538900 /* shBrushCSharp.js */; };
+		4F815C32156B750900538900 /* shBrushCss.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BD4156B6C9300538900 /* shBrushCss.js */; };
+		4F815C33156B750900538900 /* shBrushDelphi.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BD5156B6C9300538900 /* shBrushDelphi.js */; };
+		4F815C34156B750900538900 /* shBrushDiff.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BD6156B6C9300538900 /* shBrushDiff.js */; };
+		4F815C35156B750900538900 /* shBrushErlang.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BD7156B6C9300538900 /* shBrushErlang.js */; };
+		4F815C36156B750900538900 /* shBrushGroovy.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BD8156B6C9300538900 /* shBrushGroovy.js */; };
+		4F815C37156B750900538900 /* shBrushJava.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BD9156B6C9300538900 /* shBrushJava.js */; };
+		4F815C38156B750900538900 /* shBrushJavaFX.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BDA156B6C9300538900 /* shBrushJavaFX.js */; };
+		4F815C39156B750900538900 /* shBrushJScript.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BDB156B6C9300538900 /* shBrushJScript.js */; };
+		4F815C3A156B750900538900 /* shBrushPerl.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BDC156B6C9300538900 /* shBrushPerl.js */; };
+		4F815C3B156B750900538900 /* shBrushPhp.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BDD156B6C9300538900 /* shBrushPhp.js */; };
+		4F815C3C156B750900538900 /* shBrushPlain.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BDE156B6C9300538900 /* shBrushPlain.js */; };
+		4F815C3D156B750900538900 /* shBrushPowerShell.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BDF156B6C9300538900 /* shBrushPowerShell.js */; };
+		4F815C3E156B750900538900 /* shBrushPython.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BE0156B6C9300538900 /* shBrushPython.js */; };
+		4F815C3F156B750900538900 /* shBrushRuby.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BE1156B6C9300538900 /* shBrushRuby.js */; };
+		4F815C40156B750900538900 /* shBrushSass.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BE2156B6C9300538900 /* shBrushSass.js */; };
+		4F815C41156B750900538900 /* shBrushScala.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BE3156B6C9300538900 /* shBrushScala.js */; };
+		4F815C42156B750900538900 /* shBrushSql.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BE4156B6C9300538900 /* shBrushSql.js */; };
+		4F815C43156B750900538900 /* shBrushVb.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BE5156B6C9300538900 /* shBrushVb.js */; };
+		4F815C44156B750900538900 /* shBrushXml.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BE6156B6C9300538900 /* shBrushXml.js */; };
+		4F815C45156B750900538900 /* shCore.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BE7156B6C9300538900 /* shCore.js */; };
+		4F815C46156B750900538900 /* shLegacy.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BE8156B6C9300538900 /* shLegacy.js */; };
+		4FD63410156CCEB600E768A4 /* shAutoloader.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BCD156B6C9300538900 /* shAutoloader.js */; };
+		4FD63411156CCEB600E768A4 /* shBrushAppleScript.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BCE156B6C9300538900 /* shBrushAppleScript.js */; };
+		4FD63412156CCEB600E768A4 /* shBrushAS3.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BCF156B6C9300538900 /* shBrushAS3.js */; };
+		4FD63413156CCEB600E768A4 /* shBrushBash.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BD0156B6C9300538900 /* shBrushBash.js */; };
+		4FD63414156CCEB600E768A4 /* shBrushColdFusion.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BD1156B6C9300538900 /* shBrushColdFusion.js */; };
+		4FD63415156CCEB600E768A4 /* shBrushCpp.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BD2156B6C9300538900 /* shBrushCpp.js */; };
+		4FD63416156CCEB600E768A4 /* shBrushCSharp.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BD3156B6C9300538900 /* shBrushCSharp.js */; };
+		4FD63417156CCEB600E768A4 /* shBrushCss.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BD4156B6C9300538900 /* shBrushCss.js */; };
+		4FD63418156CCEB600E768A4 /* shBrushDelphi.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BD5156B6C9300538900 /* shBrushDelphi.js */; };
+		4FD63419156CCEB600E768A4 /* shBrushDiff.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BD6156B6C9300538900 /* shBrushDiff.js */; };
+		4FD6341A156CCEB600E768A4 /* shBrushErlang.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BD7156B6C9300538900 /* shBrushErlang.js */; };
+		4FD6341B156CCEB600E768A4 /* shBrushGroovy.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BD8156B6C9300538900 /* shBrushGroovy.js */; };
+		4FD6341C156CCEB600E768A4 /* shBrushJava.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BD9156B6C9300538900 /* shBrushJava.js */; };
+		4FD6341D156CCEB600E768A4 /* shBrushJavaFX.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BDA156B6C9300538900 /* shBrushJavaFX.js */; };
+		4FD6341E156CCEB600E768A4 /* shBrushJScript.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BDB156B6C9300538900 /* shBrushJScript.js */; };
+		4FD6341F156CCEB600E768A4 /* shBrushPerl.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BDC156B6C9300538900 /* shBrushPerl.js */; };
+		4FD63420156CCEB600E768A4 /* shBrushPhp.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BDD156B6C9300538900 /* shBrushPhp.js */; };
+		4FD63421156CCEB600E768A4 /* shBrushPlain.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BDE156B6C9300538900 /* shBrushPlain.js */; };
+		4FD63422156CCEB600E768A4 /* shBrushPowerShell.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BDF156B6C9300538900 /* shBrushPowerShell.js */; };
+		4FD63423156CCEB600E768A4 /* shBrushPython.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BE0156B6C9300538900 /* shBrushPython.js */; };
+		4FD63424156CCEB600E768A4 /* shBrushRuby.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BE1156B6C9300538900 /* shBrushRuby.js */; };
+		4FD63425156CCEB600E768A4 /* shBrushSass.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BE2156B6C9300538900 /* shBrushSass.js */; };
+		4FD63426156CCEB600E768A4 /* shBrushScala.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BE3156B6C9300538900 /* shBrushScala.js */; };
+		4FD63427156CCEB600E768A4 /* shBrushSql.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BE4156B6C9300538900 /* shBrushSql.js */; };
+		4FD63428156CCEB600E768A4 /* shBrushVb.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BE5156B6C9300538900 /* shBrushVb.js */; };
+		4FD63429156CCEB600E768A4 /* shBrushXml.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BE6156B6C9300538900 /* shBrushXml.js */; };
+		4FD6342A156CCEB600E768A4 /* shCore.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BE7156B6C9300538900 /* shCore.js */; };
+		4FD6342B156CCEB600E768A4 /* shLegacy.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BE8156B6C9300538900 /* shLegacy.js */; };
+		4FE2232F156BB1FC009272F3 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE2232E156BB1FC009272F3 /* QuickLook.framework */; };
+		4FE22331156BB1FC009272F3 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE22330156BB1FC009272F3 /* ApplicationServices.framework */; };
+		4FE22333156BB1FC009272F3 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE22332156BB1FC009272F3 /* CoreServices.framework */; };
+		4FE22335156BB1FC009272F3 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE22334156BB1FC009272F3 /* CoreFoundation.framework */; };
+		4FE2233B156BB1FC009272F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FE22339156BB1FC009272F3 /* InfoPlist.strings */; };
+		4FE2233D156BB1FC009272F3 /* GenerateThumbnailForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE2233C156BB1FC009272F3 /* GenerateThumbnailForURL.m */; };
+		4FE2233F156BB1FC009272F3 /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE2233E156BB1FC009272F3 /* GeneratePreviewForURL.m */; };
+		4FE22341156BB1FC009272F3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4FE22340156BB1FC009272F3 /* main.c */; };
+		4FE22348156BB566009272F3 /* N4HTMLStringCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE22346156BB566009272F3 /* N4HTMLStringCreator.h */; };
+		4FE22349156BB566009272F3 /* N4HTMLStringCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE22347156BB566009272F3 /* N4HTMLStringCreator.m */; };
+		4FE2234A156BB5AE009272F3 /* N4HTMLStringCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE22347156BB566009272F3 /* N4HTMLStringCreator.m */; };
+		4FE2234B156BB5BD009272F3 /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BC9156B6C9300538900 /* template.html */; };
+		4FE2234C156BB5BD009272F3 /* LGPL-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BCA156B6C9300538900 /* LGPL-LICENSE */; };
+		4FE2234D156BB5BD009272F3 /* MIT-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BCB156B6C9300538900 /* MIT-LICENSE */; };
+		4FE2236A156BB5C8009272F3 /* shCore.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BEA156B6C9300538900 /* shCore.css */; };
+		4FE2236B156BB5C8009272F3 /* shCoreDefault.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BEB156B6C9300538900 /* shCoreDefault.css */; };
+		4FE2236C156BB5C8009272F3 /* shCoreDjango.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BEC156B6C9300538900 /* shCoreDjango.css */; };
+		4FE2236D156BB5C8009272F3 /* shCoreEclipse.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BED156B6C9300538900 /* shCoreEclipse.css */; };
+		4FE2236E156BB5C8009272F3 /* shCoreEmacs.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BEE156B6C9300538900 /* shCoreEmacs.css */; };
+		4FE2236F156BB5C8009272F3 /* shCoreFadeToGrey.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BEF156B6C9300538900 /* shCoreFadeToGrey.css */; };
+		4FE22370156BB5C8009272F3 /* shCoreMDUltra.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BF0156B6C9300538900 /* shCoreMDUltra.css */; };
+		4FE22371156BB5C8009272F3 /* shCoreMidnight.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BF1156B6C9300538900 /* shCoreMidnight.css */; };
+		4FE22372156BB5C8009272F3 /* shCoreRDark.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BF2156B6C9300538900 /* shCoreRDark.css */; };
+		4FE22373156BB5C8009272F3 /* shThemeDefault.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BF3156B6C9300538900 /* shThemeDefault.css */; };
+		4FE22374156BB5C8009272F3 /* shThemeDjango.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BF4156B6C9300538900 /* shThemeDjango.css */; };
+		4FE22375156BB5C8009272F3 /* shThemeEclipse.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BF5156B6C9300538900 /* shThemeEclipse.css */; };
+		4FE22376156BB5C8009272F3 /* shThemeEmacs.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BF6156B6C9300538900 /* shThemeEmacs.css */; };
+		4FE22377156BB5C8009272F3 /* shThemeFadeToGrey.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BF7156B6C9300538900 /* shThemeFadeToGrey.css */; };
+		4FE22378156BB5C8009272F3 /* shThemeMDUltra.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BF8156B6C9300538900 /* shThemeMDUltra.css */; };
+		4FE22379156BB5C8009272F3 /* shThemeMidnight.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BF9156B6C9300538900 /* shThemeMidnight.css */; };
+		4FE2237A156BB5C8009272F3 /* shThemeRDark.css in Resources */ = {isa = PBXBuildFile; fileRef = 4F815BFA156B6C9300538900 /* shThemeRDark.css */; };
+		4FE22382156BC314009272F3 /* SourceSpectrum.qlgenerator in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4FE2232D156BB1FC009272F3 /* SourceSpectrum.qlgenerator */; };
+		4FE22383156BCBCF009272F3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F815BC6156B60EA00538900 /* WebKit.framework */; };
+		4FE22384156BCBD2009272F3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F815BA9156B602D00538900 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4FE22381156BC2A6009272F3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "~/Library/Quicklook";
+			dstSubfolderSpec = 0;
+			files = (
+				4FE22382156BC314009272F3 /* SourceSpectrum.qlgenerator in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4F815BA5156B602D00538900 /* SourceSpectrum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SourceSpectrum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F815BA9156B602D00538900 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4F815BAC156B602D00538900 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4F815BAD156B602D00538900 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4F815BAE156B602D00538900 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4F815BB1156B602D00538900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F815BB3156B602D00538900 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F815BB5156B602D00538900 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F815BB7156B602E00538900 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		4F815BB9156B602E00538900 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4F815BBB156B602E00538900 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F815BBC156B602E00538900 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4F815BBF156B602E00538900 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4F815BC6156B60EA00538900 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		4F815BC9156B6C9300538900 /* template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; lineEnding = 0; path = template.html; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.html; };
+		4F815BCA156B6C9300538900 /* LGPL-LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "LGPL-LICENSE"; sourceTree = "<group>"; };
+		4F815BCB156B6C9300538900 /* MIT-LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "MIT-LICENSE"; sourceTree = "<group>"; };
+		4F815BCD156B6C9300538900 /* shAutoloader.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shAutoloader.js; sourceTree = "<group>"; };
+		4F815BCE156B6C9300538900 /* shBrushAppleScript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushAppleScript.js; sourceTree = "<group>"; };
+		4F815BCF156B6C9300538900 /* shBrushAS3.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushAS3.js; sourceTree = "<group>"; };
+		4F815BD0156B6C9300538900 /* shBrushBash.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushBash.js; sourceTree = "<group>"; };
+		4F815BD1156B6C9300538900 /* shBrushColdFusion.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushColdFusion.js; sourceTree = "<group>"; };
+		4F815BD2156B6C9300538900 /* shBrushCpp.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushCpp.js; sourceTree = "<group>"; };
+		4F815BD3156B6C9300538900 /* shBrushCSharp.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushCSharp.js; sourceTree = "<group>"; };
+		4F815BD4156B6C9300538900 /* shBrushCss.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushCss.js; sourceTree = "<group>"; };
+		4F815BD5156B6C9300538900 /* shBrushDelphi.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushDelphi.js; sourceTree = "<group>"; };
+		4F815BD6156B6C9300538900 /* shBrushDiff.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushDiff.js; sourceTree = "<group>"; };
+		4F815BD7156B6C9300538900 /* shBrushErlang.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushErlang.js; sourceTree = "<group>"; };
+		4F815BD8156B6C9300538900 /* shBrushGroovy.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushGroovy.js; sourceTree = "<group>"; };
+		4F815BD9156B6C9300538900 /* shBrushJava.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushJava.js; sourceTree = "<group>"; };
+		4F815BDA156B6C9300538900 /* shBrushJavaFX.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushJavaFX.js; sourceTree = "<group>"; };
+		4F815BDB156B6C9300538900 /* shBrushJScript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushJScript.js; sourceTree = "<group>"; };
+		4F815BDC156B6C9300538900 /* shBrushPerl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushPerl.js; sourceTree = "<group>"; };
+		4F815BDD156B6C9300538900 /* shBrushPhp.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushPhp.js; sourceTree = "<group>"; };
+		4F815BDE156B6C9300538900 /* shBrushPlain.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushPlain.js; sourceTree = "<group>"; };
+		4F815BDF156B6C9300538900 /* shBrushPowerShell.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushPowerShell.js; sourceTree = "<group>"; };
+		4F815BE0156B6C9300538900 /* shBrushPython.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushPython.js; sourceTree = "<group>"; };
+		4F815BE1156B6C9300538900 /* shBrushRuby.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushRuby.js; sourceTree = "<group>"; };
+		4F815BE2156B6C9300538900 /* shBrushSass.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushSass.js; sourceTree = "<group>"; };
+		4F815BE3156B6C9300538900 /* shBrushScala.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushScala.js; sourceTree = "<group>"; };
+		4F815BE4156B6C9300538900 /* shBrushSql.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushSql.js; sourceTree = "<group>"; };
+		4F815BE5156B6C9300538900 /* shBrushVb.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushVb.js; sourceTree = "<group>"; };
+		4F815BE6156B6C9300538900 /* shBrushXml.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushXml.js; sourceTree = "<group>"; };
+		4F815BE7156B6C9300538900 /* shCore.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shCore.js; sourceTree = "<group>"; };
+		4F815BE8156B6C9300538900 /* shLegacy.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shLegacy.js; sourceTree = "<group>"; };
+		4F815BEA156B6C9300538900 /* shCore.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shCore.css; sourceTree = "<group>"; };
+		4F815BEB156B6C9300538900 /* shCoreDefault.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shCoreDefault.css; sourceTree = "<group>"; };
+		4F815BEC156B6C9300538900 /* shCoreDjango.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shCoreDjango.css; sourceTree = "<group>"; };
+		4F815BED156B6C9300538900 /* shCoreEclipse.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shCoreEclipse.css; sourceTree = "<group>"; };
+		4F815BEE156B6C9300538900 /* shCoreEmacs.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shCoreEmacs.css; sourceTree = "<group>"; };
+		4F815BEF156B6C9300538900 /* shCoreFadeToGrey.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shCoreFadeToGrey.css; sourceTree = "<group>"; };
+		4F815BF0156B6C9300538900 /* shCoreMDUltra.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shCoreMDUltra.css; sourceTree = "<group>"; };
+		4F815BF1156B6C9300538900 /* shCoreMidnight.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shCoreMidnight.css; sourceTree = "<group>"; };
+		4F815BF2156B6C9300538900 /* shCoreRDark.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shCoreRDark.css; sourceTree = "<group>"; };
+		4F815BF3156B6C9300538900 /* shThemeDefault.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shThemeDefault.css; sourceTree = "<group>"; };
+		4F815BF4156B6C9300538900 /* shThemeDjango.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shThemeDjango.css; sourceTree = "<group>"; };
+		4F815BF5156B6C9300538900 /* shThemeEclipse.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shThemeEclipse.css; sourceTree = "<group>"; };
+		4F815BF6156B6C9300538900 /* shThemeEmacs.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shThemeEmacs.css; sourceTree = "<group>"; };
+		4F815BF7156B6C9300538900 /* shThemeFadeToGrey.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shThemeFadeToGrey.css; sourceTree = "<group>"; };
+		4F815BF8156B6C9300538900 /* shThemeMDUltra.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shThemeMDUltra.css; sourceTree = "<group>"; };
+		4F815BF9156B6C9300538900 /* shThemeMidnight.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shThemeMidnight.css; sourceTree = "<group>"; };
+		4F815BFA156B6C9300538900 /* shThemeRDark.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = shThemeRDark.css; sourceTree = "<group>"; };
+		4FE2232D156BB1FC009272F3 /* SourceSpectrum.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SourceSpectrum.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FE2232E156BB1FC009272F3 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		4FE22330156BB1FC009272F3 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		4FE22332156BB1FC009272F3 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		4FE22334156BB1FC009272F3 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		4FE22338156BB1FC009272F3 /* SourceSpectrum-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SourceSpectrum-Info.plist"; sourceTree = "<group>"; };
+		4FE2233A156BB1FC009272F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4FE2233C156BB1FC009272F3 /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
+		4FE2233E156BB1FC009272F3 /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
+		4FE22340156BB1FC009272F3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		4FE22342156BB1FC009272F3 /* SourceSpectrum-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SourceSpectrum-Prefix.pch"; sourceTree = "<group>"; };
+		4FE22346156BB566009272F3 /* N4HTMLStringCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N4HTMLStringCreator.h; sourceTree = "<group>"; };
+		4FE22347156BB566009272F3 /* N4HTMLStringCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = N4HTMLStringCreator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F815BA2156B602D00538900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F815BC7156B60EA00538900 /* WebKit.framework in Frameworks */,
+				4F815BAA156B602D00538900 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FE22328156BB1FC009272F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE2232F156BB1FC009272F3 /* QuickLook.framework in Frameworks */,
+				4FE22331156BB1FC009272F3 /* ApplicationServices.framework in Frameworks */,
+				4FE22333156BB1FC009272F3 /* CoreServices.framework in Frameworks */,
+				4FE22335156BB1FC009272F3 /* CoreFoundation.framework in Frameworks */,
+				4FE22383156BCBCF009272F3 /* WebKit.framework in Frameworks */,
+				4FE22384156BCBD2009272F3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F815B9A156B602D00538900 = {
+			isa = PBXGroup;
+			children = (
+				4F815BC8156B6C9300538900 /* SyntaxHighlighter */,
+				4F815BAF156B602D00538900 /* SourceSpectrumApp */,
+				4FE22336156BB1FC009272F3 /* SourceSpectrum */,
+				4F815BA8156B602D00538900 /* Frameworks */,
+				4F815BA6156B602D00538900 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F815BA6156B602D00538900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F815BA5156B602D00538900 /* SourceSpectrum.app */,
+				4FE2232D156BB1FC009272F3 /* SourceSpectrum.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F815BA8156B602D00538900 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F815BC6156B60EA00538900 /* WebKit.framework */,
+				4F815BA9156B602D00538900 /* Cocoa.framework */,
+				4FE2232E156BB1FC009272F3 /* QuickLook.framework */,
+				4FE22330156BB1FC009272F3 /* ApplicationServices.framework */,
+				4FE22332156BB1FC009272F3 /* CoreServices.framework */,
+				4FE22334156BB1FC009272F3 /* CoreFoundation.framework */,
+				4F815BAB156B602D00538900 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F815BAB156B602D00538900 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F815BAC156B602D00538900 /* AppKit.framework */,
+				4F815BAD156B602D00538900 /* CoreData.framework */,
+				4F815BAE156B602D00538900 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4F815BAF156B602D00538900 /* SourceSpectrumApp */ = {
+			isa = PBXGroup;
+			children = (
+				4F815BBB156B602E00538900 /* AppDelegate.h */,
+				4F815BBC156B602E00538900 /* AppDelegate.m */,
+				4F815BBE156B602E00538900 /* MainMenu.xib */,
+				4F815BB0156B602D00538900 /* Supporting Files */,
+			);
+			path = SourceSpectrumApp;
+			sourceTree = "<group>";
+		};
+		4F815BB0156B602D00538900 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F815BB1156B602D00538900 /* Info.plist */,
+				4F815BB2156B602D00538900 /* InfoPlist.strings */,
+				4F815BB5156B602D00538900 /* main.m */,
+				4F815BB7156B602E00538900 /* Prefix.pch */,
+				4F815BB8156B602E00538900 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F815BC8156B6C9300538900 /* SyntaxHighlighter */ = {
+			isa = PBXGroup;
+			children = (
+				4F815BC9156B6C9300538900 /* template.html */,
+				4F815BCA156B6C9300538900 /* LGPL-LICENSE */,
+				4F815BCB156B6C9300538900 /* MIT-LICENSE */,
+				4F815BCC156B6C9300538900 /* scripts */,
+				4F815BE9156B6C9300538900 /* styles */,
+			);
+			path = SyntaxHighlighter;
+			sourceTree = "<group>";
+		};
+		4F815BCC156B6C9300538900 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				4F815BCD156B6C9300538900 /* shAutoloader.js */,
+				4F815BCE156B6C9300538900 /* shBrushAppleScript.js */,
+				4F815BCF156B6C9300538900 /* shBrushAS3.js */,
+				4F815BD0156B6C9300538900 /* shBrushBash.js */,
+				4F815BD1156B6C9300538900 /* shBrushColdFusion.js */,
+				4F815BD2156B6C9300538900 /* shBrushCpp.js */,
+				4F815BD3156B6C9300538900 /* shBrushCSharp.js */,
+				4F815BD4156B6C9300538900 /* shBrushCss.js */,
+				4F815BD5156B6C9300538900 /* shBrushDelphi.js */,
+				4F815BD6156B6C9300538900 /* shBrushDiff.js */,
+				4F815BD7156B6C9300538900 /* shBrushErlang.js */,
+				4F815BD8156B6C9300538900 /* shBrushGroovy.js */,
+				4F815BD9156B6C9300538900 /* shBrushJava.js */,
+				4F815BDA156B6C9300538900 /* shBrushJavaFX.js */,
+				4F815BDB156B6C9300538900 /* shBrushJScript.js */,
+				4F815BDC156B6C9300538900 /* shBrushPerl.js */,
+				4F815BDD156B6C9300538900 /* shBrushPhp.js */,
+				4F815BDE156B6C9300538900 /* shBrushPlain.js */,
+				4F815BDF156B6C9300538900 /* shBrushPowerShell.js */,
+				4F815BE0156B6C9300538900 /* shBrushPython.js */,
+				4F815BE1156B6C9300538900 /* shBrushRuby.js */,
+				4F815BE2156B6C9300538900 /* shBrushSass.js */,
+				4F815BE3156B6C9300538900 /* shBrushScala.js */,
+				4F815BE4156B6C9300538900 /* shBrushSql.js */,
+				4F815BE5156B6C9300538900 /* shBrushVb.js */,
+				4F815BE6156B6C9300538900 /* shBrushXml.js */,
+				4F815BE7156B6C9300538900 /* shCore.js */,
+				4F815BE8156B6C9300538900 /* shLegacy.js */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
+		4F815BE9156B6C9300538900 /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				4F815BEA156B6C9300538900 /* shCore.css */,
+				4F815BEB156B6C9300538900 /* shCoreDefault.css */,
+				4F815BEC156B6C9300538900 /* shCoreDjango.css */,
+				4F815BED156B6C9300538900 /* shCoreEclipse.css */,
+				4F815BEE156B6C9300538900 /* shCoreEmacs.css */,
+				4F815BEF156B6C9300538900 /* shCoreFadeToGrey.css */,
+				4F815BF0156B6C9300538900 /* shCoreMDUltra.css */,
+				4F815BF1156B6C9300538900 /* shCoreMidnight.css */,
+				4F815BF2156B6C9300538900 /* shCoreRDark.css */,
+				4F815BF3156B6C9300538900 /* shThemeDefault.css */,
+				4F815BF4156B6C9300538900 /* shThemeDjango.css */,
+				4F815BF5156B6C9300538900 /* shThemeEclipse.css */,
+				4F815BF6156B6C9300538900 /* shThemeEmacs.css */,
+				4F815BF7156B6C9300538900 /* shThemeFadeToGrey.css */,
+				4F815BF8156B6C9300538900 /* shThemeMDUltra.css */,
+				4F815BF9156B6C9300538900 /* shThemeMidnight.css */,
+				4F815BFA156B6C9300538900 /* shThemeRDark.css */,
+			);
+			path = styles;
+			sourceTree = "<group>";
+		};
+		4FE22336156BB1FC009272F3 /* SourceSpectrum */ = {
+			isa = PBXGroup;
+			children = (
+				4FE22346156BB566009272F3 /* N4HTMLStringCreator.h */,
+				4FE22347156BB566009272F3 /* N4HTMLStringCreator.m */,
+				4FE2233C156BB1FC009272F3 /* GenerateThumbnailForURL.m */,
+				4FE2233E156BB1FC009272F3 /* GeneratePreviewForURL.m */,
+				4FE22340156BB1FC009272F3 /* main.c */,
+				4FE22337156BB1FC009272F3 /* Supporting Files */,
+			);
+			path = SourceSpectrum;
+			sourceTree = "<group>";
+		};
+		4FE22337156BB1FC009272F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FE22338156BB1FC009272F3 /* SourceSpectrum-Info.plist */,
+				4FE22339156BB1FC009272F3 /* InfoPlist.strings */,
+				4FE22342156BB1FC009272F3 /* SourceSpectrum-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4FE22329156BB1FC009272F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE22348156BB566009272F3 /* N4HTMLStringCreator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4F815BA4156B602D00538900 /* SourceSpectrumApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F815BC3156B602E00538900 /* Build configuration list for PBXNativeTarget "SourceSpectrumApp" */;
+			buildPhases = (
+				4F815BA1156B602D00538900 /* Sources */,
+				4F815BA2156B602D00538900 /* Frameworks */,
+				4F815BA3156B602D00538900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SourceSpectrumApp;
+			productName = webview;
+			productReference = 4F815BA5156B602D00538900 /* SourceSpectrum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FE2232C156BB1FC009272F3 /* SourceSpectrum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FE22343156BB1FC009272F3 /* Build configuration list for PBXNativeTarget "SourceSpectrum" */;
+			buildPhases = (
+				4FE22327156BB1FC009272F3 /* Sources */,
+				4FE22328156BB1FC009272F3 /* Frameworks */,
+				4FE22329156BB1FC009272F3 /* Headers */,
+				4FE2232A156BB1FC009272F3 /* Resources */,
+				4FE2232B156BB1FC009272F3 /* Rez */,
+				4FE22381156BC2A6009272F3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SourceSpectrum;
+			productName = SourceSpectrum;
+			productReference = 4FE2232D156BB1FC009272F3 /* SourceSpectrum.qlgenerator */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F815B9C156B602D00538900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Information Architects";
+			};
+			buildConfigurationList = 4F815B9F156B602D00538900 /* Build configuration list for PBXProject "SourceSpectrum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4F815B9A156B602D00538900;
+			productRefGroup = 4F815BA6156B602D00538900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F815BA4156B602D00538900 /* SourceSpectrumApp */,
+				4FE2232C156BB1FC009272F3 /* SourceSpectrum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F815BA3156B602D00538900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F815BB4156B602D00538900 /* InfoPlist.strings in Resources */,
+				4F815BBA156B602E00538900 /* Credits.rtf in Resources */,
+				4F815BC0156B602E00538900 /* MainMenu.xib in Resources */,
+				4F815BFB156B6C9300538900 /* template.html in Resources */,
+				4F815BFC156B6C9300538900 /* LGPL-LICENSE in Resources */,
+				4F815BFD156B6C9300538900 /* MIT-LICENSE in Resources */,
+				4F815C1A156B6C9300538900 /* shCore.css in Resources */,
+				4F815C1B156B6C9300538900 /* shCoreDefault.css in Resources */,
+				4F815C1C156B6C9300538900 /* shCoreDjango.css in Resources */,
+				4F815C1D156B6C9300538900 /* shCoreEclipse.css in Resources */,
+				4F815C1E156B6C9300538900 /* shCoreEmacs.css in Resources */,
+				4F815C1F156B6C9300538900 /* shCoreFadeToGrey.css in Resources */,
+				4F815C20156B6C9300538900 /* shCoreMDUltra.css in Resources */,
+				4F815C21156B6C9300538900 /* shCoreMidnight.css in Resources */,
+				4F815C22156B6C9300538900 /* shCoreRDark.css in Resources */,
+				4F815C23156B6C9300538900 /* shThemeDefault.css in Resources */,
+				4F815C24156B6C9300538900 /* shThemeDjango.css in Resources */,
+				4F815C25156B6C9300538900 /* shThemeEclipse.css in Resources */,
+				4F815C26156B6C9300538900 /* shThemeEmacs.css in Resources */,
+				4F815C27156B6C9300538900 /* shThemeFadeToGrey.css in Resources */,
+				4F815C28156B6C9300538900 /* shThemeMDUltra.css in Resources */,
+				4F815C29156B6C9300538900 /* shThemeMidnight.css in Resources */,
+				4F815C2A156B6C9300538900 /* shThemeRDark.css in Resources */,
+				4F815C2B156B750900538900 /* shAutoloader.js in Resources */,
+				4F815C2C156B750900538900 /* shBrushAppleScript.js in Resources */,
+				4F815C2D156B750900538900 /* shBrushAS3.js in Resources */,
+				4F815C2E156B750900538900 /* shBrushBash.js in Resources */,
+				4F815C2F156B750900538900 /* shBrushColdFusion.js in Resources */,
+				4F815C30156B750900538900 /* shBrushCpp.js in Resources */,
+				4F815C31156B750900538900 /* shBrushCSharp.js in Resources */,
+				4F815C32156B750900538900 /* shBrushCss.js in Resources */,
+				4F815C33156B750900538900 /* shBrushDelphi.js in Resources */,
+				4F815C34156B750900538900 /* shBrushDiff.js in Resources */,
+				4F815C35156B750900538900 /* shBrushErlang.js in Resources */,
+				4F815C36156B750900538900 /* shBrushGroovy.js in Resources */,
+				4F815C37156B750900538900 /* shBrushJava.js in Resources */,
+				4F815C38156B750900538900 /* shBrushJavaFX.js in Resources */,
+				4F815C39156B750900538900 /* shBrushJScript.js in Resources */,
+				4F815C3A156B750900538900 /* shBrushPerl.js in Resources */,
+				4F815C3B156B750900538900 /* shBrushPhp.js in Resources */,
+				4F815C3C156B750900538900 /* shBrushPlain.js in Resources */,
+				4F815C3D156B750900538900 /* shBrushPowerShell.js in Resources */,
+				4F815C3E156B750900538900 /* shBrushPython.js in Resources */,
+				4F815C3F156B750900538900 /* shBrushRuby.js in Resources */,
+				4F815C40156B750900538900 /* shBrushSass.js in Resources */,
+				4F815C41156B750900538900 /* shBrushScala.js in Resources */,
+				4F815C42156B750900538900 /* shBrushSql.js in Resources */,
+				4F815C43156B750900538900 /* shBrushVb.js in Resources */,
+				4F815C44156B750900538900 /* shBrushXml.js in Resources */,
+				4F815C45156B750900538900 /* shCore.js in Resources */,
+				4F815C46156B750900538900 /* shLegacy.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FE2232A156BB1FC009272F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE2233B156BB1FC009272F3 /* InfoPlist.strings in Resources */,
+				4FE2234B156BB5BD009272F3 /* template.html in Resources */,
+				4FE2234C156BB5BD009272F3 /* LGPL-LICENSE in Resources */,
+				4FE2234D156BB5BD009272F3 /* MIT-LICENSE in Resources */,
+				4FD63410156CCEB600E768A4 /* shAutoloader.js in Resources */,
+				4FD63411156CCEB600E768A4 /* shBrushAppleScript.js in Resources */,
+				4FD63412156CCEB600E768A4 /* shBrushAS3.js in Resources */,
+				4FD63413156CCEB600E768A4 /* shBrushBash.js in Resources */,
+				4FD63414156CCEB600E768A4 /* shBrushColdFusion.js in Resources */,
+				4FD63415156CCEB600E768A4 /* shBrushCpp.js in Resources */,
+				4FD63416156CCEB600E768A4 /* shBrushCSharp.js in Resources */,
+				4FD63417156CCEB600E768A4 /* shBrushCss.js in Resources */,
+				4FD63418156CCEB600E768A4 /* shBrushDelphi.js in Resources */,
+				4FD63419156CCEB600E768A4 /* shBrushDiff.js in Resources */,
+				4FD6341A156CCEB600E768A4 /* shBrushErlang.js in Resources */,
+				4FD6341B156CCEB600E768A4 /* shBrushGroovy.js in Resources */,
+				4FD6341C156CCEB600E768A4 /* shBrushJava.js in Resources */,
+				4FD6341D156CCEB600E768A4 /* shBrushJavaFX.js in Resources */,
+				4FD6341E156CCEB600E768A4 /* shBrushJScript.js in Resources */,
+				4FD6341F156CCEB600E768A4 /* shBrushPerl.js in Resources */,
+				4FD63420156CCEB600E768A4 /* shBrushPhp.js in Resources */,
+				4FD63421156CCEB600E768A4 /* shBrushPlain.js in Resources */,
+				4FD63422156CCEB600E768A4 /* shBrushPowerShell.js in Resources */,
+				4FD63423156CCEB600E768A4 /* shBrushPython.js in Resources */,
+				4FD63424156CCEB600E768A4 /* shBrushRuby.js in Resources */,
+				4FD63425156CCEB600E768A4 /* shBrushSass.js in Resources */,
+				4FD63426156CCEB600E768A4 /* shBrushScala.js in Resources */,
+				4FD63427156CCEB600E768A4 /* shBrushSql.js in Resources */,
+				4FD63428156CCEB600E768A4 /* shBrushVb.js in Resources */,
+				4FD63429156CCEB600E768A4 /* shBrushXml.js in Resources */,
+				4FD6342A156CCEB600E768A4 /* shCore.js in Resources */,
+				4FD6342B156CCEB600E768A4 /* shLegacy.js in Resources */,
+				4FE2236A156BB5C8009272F3 /* shCore.css in Resources */,
+				4FE2236B156BB5C8009272F3 /* shCoreDefault.css in Resources */,
+				4FE2236C156BB5C8009272F3 /* shCoreDjango.css in Resources */,
+				4FE2236D156BB5C8009272F3 /* shCoreEclipse.css in Resources */,
+				4FE2236E156BB5C8009272F3 /* shCoreEmacs.css in Resources */,
+				4FE2236F156BB5C8009272F3 /* shCoreFadeToGrey.css in Resources */,
+				4FE22370156BB5C8009272F3 /* shCoreMDUltra.css in Resources */,
+				4FE22371156BB5C8009272F3 /* shCoreMidnight.css in Resources */,
+				4FE22372156BB5C8009272F3 /* shCoreRDark.css in Resources */,
+				4FE22373156BB5C8009272F3 /* shThemeDefault.css in Resources */,
+				4FE22374156BB5C8009272F3 /* shThemeDjango.css in Resources */,
+				4FE22375156BB5C8009272F3 /* shThemeEclipse.css in Resources */,
+				4FE22376156BB5C8009272F3 /* shThemeEmacs.css in Resources */,
+				4FE22377156BB5C8009272F3 /* shThemeFadeToGrey.css in Resources */,
+				4FE22378156BB5C8009272F3 /* shThemeMDUltra.css in Resources */,
+				4FE22379156BB5C8009272F3 /* shThemeMidnight.css in Resources */,
+				4FE2237A156BB5C8009272F3 /* shThemeRDark.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		4FE2232B156BB1FC009272F3 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F815BA1156B602D00538900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F815BB6156B602D00538900 /* main.m in Sources */,
+				4F815BBD156B602E00538900 /* AppDelegate.m in Sources */,
+				4FE2234A156BB5AE009272F3 /* N4HTMLStringCreator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FE22327156BB1FC009272F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE22349156BB566009272F3 /* N4HTMLStringCreator.m in Sources */,
+				4FE2233D156BB1FC009272F3 /* GenerateThumbnailForURL.m in Sources */,
+				4FE2233F156BB1FC009272F3 /* GeneratePreviewForURL.m in Sources */,
+				4FE22341156BB1FC009272F3 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F815BB2156B602D00538900 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F815BB3156B602D00538900 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4F815BB8156B602E00538900 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F815BB9156B602E00538900 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4F815BBE156B602E00538900 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F815BBF156B602E00538900 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4FE22339156BB1FC009272F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FE2233A156BB1FC009272F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F815BC1156B602E00538900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4F815BC2156B602E00538900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4F815BC4156B602E00538900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SourceSpectrumApp/Prefix.pch;
+				INFOPLIST_FILE = SourceSpectrumApp/Info.plist;
+				PRODUCT_NAME = SourceSpectrum;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4F815BC5156B602E00538900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SourceSpectrumApp/Prefix.pch;
+				INFOPLIST_FILE = SourceSpectrumApp/Info.plist;
+				PRODUCT_NAME = SourceSpectrum;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4FE22344156BB1FC009272F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SourceSpectrum/SourceSpectrum-Prefix.pch";
+				INFOPLIST_FILE = "SourceSpectrum/SourceSpectrum-Info.plist";
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = build;
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Debug;
+		};
+		4FE22345156BB1FC009272F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SourceSpectrum/SourceSpectrum-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = NS_BLOCK_ASSERTIONS;
+				INFOPLIST_FILE = "SourceSpectrum/SourceSpectrum-Info.plist";
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F815B9F156B602D00538900 /* Build configuration list for PBXProject "SourceSpectrum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F815BC1156B602E00538900 /* Debug */,
+				4F815BC2156B602E00538900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F815BC3156B602E00538900 /* Build configuration list for PBXNativeTarget "SourceSpectrumApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F815BC4156B602E00538900 /* Debug */,
+				4F815BC5156B602E00538900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FE22343156BB1FC009272F3 /* Build configuration list for PBXNativeTarget "SourceSpectrum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FE22344156BB1FC009272F3 /* Debug */,
+				4FE22345156BB1FC009272F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F815B9C156B602D00538900 /* Project object */;
+}
